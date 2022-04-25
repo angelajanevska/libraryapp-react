@@ -20,7 +20,7 @@ const bookTerm = (props) => {
                     Edit
                 </Link>
                 <a title={"taken"} className={"btn btn-outline-secondary"}
-                   onClick={() => props.onTakeCopy(props.term.id)}>
+                   onClick={() => props.takenBook(props.term.id)}>
                     Mark as taken
                 </a>
             </th>
